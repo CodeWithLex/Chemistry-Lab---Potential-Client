@@ -23,7 +23,7 @@ public class ChemLab_System extends Application {
             loader.setLocation(getClass().getResource("/ui/loginPage.fxml"));
             Parent root = loader.load();
             Scene scene = new Scene(root);
-            primaryStage.setTitle("ChemLab System - Login");
+            primaryStage.setTitle("Chemistry Laboratory System - Login");
             primaryStage.setScene(scene);
             primaryStage.setResizable(false);
             primaryStage.show();
