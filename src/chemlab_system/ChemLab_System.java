@@ -26,6 +26,14 @@ public class ChemLab_System extends Application {
             primaryStage.setTitle("Chemistry Laboratory System - Login");
             primaryStage.setScene(scene);
             primaryStage.setResizable(false);
+            
+            // Center the window on screen
+            primaryStage.centerOnScreen();
+            
+            // Or explicitly set the window size to match your FXML content
+            primaryStage.setWidth(1100);  // Adjust based on your FXML design
+            primaryStage.setHeight(650);  // Adjust based on your FXML design
+            
             primaryStage.show();
         } catch (Exception e) {
             e.printStackTrace();
